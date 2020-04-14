@@ -92,14 +92,37 @@
 					// Can you take care of this
 					zoombot.on(['can you take care of this']).then((i) => {
 						if(audioOn){
-							zoombot.say("i don't have the bandwith");
+							zoombot.say("i don't have the time right now. I have to go to Home Depot");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
 						}
 					});
+				});
 
+					// Facebook
+					zoombot.on(['Facebook']).then((i) => {
+						if(audioOn){
+							zoombot.say("Facebook is a good investment for both brands");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
+});
+
+					// Social media
+					zoombot.on(['social media']).then((i) => {
+						if(audioOn){
+							zoombot.say("We are always looking at social media metrics");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
 					// What do you think?
 					zoombot.on(['what do you think', 'any ideas']).then((i) => {
 						if(audioOn){
@@ -114,8 +137,31 @@
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 6000);
 						}
 					});
+});
 
-					// Did you get that, can you hear me?
+					// Corona Virus
+					zoombot.on(['corona virus']).then((i) => {
+						if(audioOn){
+							zoombot.say("I cannot get that virus. I'm not real");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
+					});
+
+					// Hungry
+					zoombot.on(['fridge']).then((i) => {
+						if(audioOn){
+							zoombot.say("is anyone else having trouble saying away from their fridge like me");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
+			// Did you get that, can you hear me?
 					zoombot.on(['did you get that', 'can you hear me']).then((i) => {
 						if(audioOn){
 							zoombot.say("I'm having trouble hearing you");
@@ -126,10 +172,10 @@
 						}
 					});
 
-					// Can you take care of this?
-					zoombot.on(['are you ok']).then((i) => {
+					// Driving?
+					zoombot.on(['driving', 'are your driving']).then((i) => {
 						if(audioOn){
-							zoombot.say("I think it is just my internet connection. sorry.");
+							zoombot.say("I cannot drive. I do not have a drivers license.");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
