@@ -195,7 +195,42 @@
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
 						}
 					});
+});
 
+					// Beer
+					zoombot.on(['beer', 'brewe']).then((i) => {
+						if(audioOn){
+							zoombot.say("I'm sure Paul wants beer.");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
+			});
+
+					// Google Ads
+					zoombot.on(['google', 'google ads']).then((i) => {
+						if(audioOn){
+							zoombot.say("Google ads are a good strategy");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
+			});
+
+					// Facebook Ads
+					zoombot.on(['facebook', 'facebook ads']).then((i) => {
+						if(audioOn){
+							zoombot.say("Facebook ads are a good investment");
+							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
+							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 2000);
+						}
+					});
 					// Kickstart my heart
 					zoombot.initialize({
 					    lang: "en-GB", // GreatBritain english
