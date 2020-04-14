@@ -57,7 +57,7 @@
 						} else {
 							$(this).text('TURN OFF ZOOMBOT');
 							audioOn = true;
-							zoombot.say("hi guys. matt here. my video is a little choppy sorry. how is everyone today?");
+							zoombot.say("hi guys. Virtual Devin here. my video is a little choppy sorry. how is everyone today?");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
@@ -69,7 +69,7 @@
 					// Hello
 					zoombot.on(['hello', 'good morning']).then((i) => {
 						if(audioOn){
-							zoombot.say("hi guys. matt here. my video is a little choppy sorry. how is everyone today?");
+							zoombot.say("hi guys. Virtual Devin here. my video is a little choppy sorry. how is everyone today?");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
@@ -81,7 +81,7 @@
 					// How are you?
 					zoombot.on(['how are you', 'how is everybody', 'how is everyone']).then((i) => {
 						if(audioOn){
-							zoombot.say("I am doing great thank you for asking");
+							zoombot.say("I am doing pretty good. I'm feeling a bit hungry.");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
@@ -92,7 +92,7 @@
 					// Can you take care of this
 					zoombot.on(['can you take care of this']).then((i) => {
 						if(audioOn){
-							zoombot.say("i don't have the bandwith");
+							zoombot.say("I will make note for the real Devin");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
@@ -103,7 +103,7 @@
 					// What do you think?
 					zoombot.on(['what do you think', 'any ideas']).then((i) => {
 						if(audioOn){
-							zoombot.say("hmmmmmmmmmm, I'm thinking");
+							zoombot.say("hmmmmmmmmmm, I'm thinking. I will have to get back to you");
 							$('#pics').css('background-image', 'url(img/zoombot-thinking.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-thinking.jpg)');}, 1400);
@@ -162,7 +162,7 @@
 					// Day drinking
 					zoombot.on(['drinking']).then((i) => {
 						if(audioOn){
-							zoombot.say("is it too. early for red wine? ha ha ha ha ha ha ha ha ha.");
+							zoombot.say("is it too. early for beer? ha ha ha ha ha ha ha ha ha.");
 							$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-smile.jpg)');}, 1000);
 							setTimeout(function(){$('#pics').css('background-image', 'url(img/zoombot-open1.jpg)');}, 1400);
